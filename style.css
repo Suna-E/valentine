@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: center;
+    
+    /* Background Image */
+    background-image: url('xoxo.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+}
+
+h1 {
+    color: #b71c1c;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    
+    /* The styling for just the text */
+    background-color: rgba(255, 255, 255, 0.3); /* Very low opacity */
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Small subtle border */
+    border-radius: 15px;
+    display: inline-block; /* Makes the box only as wide as the text */
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Keeps it mobile-friendly for her phone */
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* Makes buttons stand out from background */
+}
+
+#yesBtn {
+    background-color: #4caf50;
+    color: white;
+}
+
+#noBtn {
+    background-color: #f44336;
+    color: white;
+}
