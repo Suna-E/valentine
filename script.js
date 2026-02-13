@@ -55,7 +55,8 @@ yesBtn.addEventListener("click", () => {
     //playMusic(); //music
     if (noClickCount < messages.length) {
     } else {
-    question.innerHTML = "𝑇𝑜𝑔𝑒𝑡ℎ𝑒𝑟 𝑓𝑜𝑟𝑒𝑣𝑒𝑟 𝑐ℎ𝑒́𝑟𝑖𝑒 ❤️";
+    //question.innerHTML = "𝑇𝑜𝑔𝑒𝑡ℎ𝑒𝑟 𝑓𝑜𝑟𝑒𝑣𝑒𝑟 𝑐ℎ𝑒́𝑟𝑖𝑒 ❤️";
+    question.innerHTML = "together forever ch\u00e9rie! ❤️";
     
     // Hide buttons after she says Yes
     document.querySelector('.buttons').style.display = "none";
